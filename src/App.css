@@ -1,12 +1,17 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
 :root {
   --background-dark: #14121F;
   --text-dark: #E2DDFE;
- 
 }
 
 .App {
-  text-align: center;
+  /* text-align: center; */
   background-color: var(--background-dark);
+}
+
+.title {
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 .dark-text {

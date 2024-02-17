@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import Presentation from './components/Presentation';
+import SkillsSection from './components/SkillsSection';
+import fr from './languages/fr.json';
 
 function App() {
+  const currentLang = fr;
   return (
     <div className="App">
-      <header className="App-header">
-        <Presentation />
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+        <Presentation lang={currentLang.fr}/>
+        <SkillsSection lang={currentLang.fr}/>
     </div>
   );
 }

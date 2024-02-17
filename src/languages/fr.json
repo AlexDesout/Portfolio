@@ -1,0 +1,46 @@
+{
+  "fr": {
+    "home": "Home",
+    "about": "About Me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "name": "Alexandre Desoutter",
+    "title": "Développeur Full-Stack",
+    "subtitle": "Passionate about creating innovative web solutions.",
+    "about": "Vivamus ac odio a massa auctor aliquet. Fusce tincidunt gravida libero in placerat. Pellentesque tristique ex ut ipsum pretium, at volutpat dolor vulputate. Integer gravida nec eros a convallis. Aenean vulputate fermentum vestibulum. Vestibulum efficitur lacus at ligula condimentum, vel feugiat sem semper. Vestibulum eget felis quam. Vestibulum blandit urna non lectus interdum, non lobortis nisl aliquam. Suspendisse et tortor mattis felis cursus gravida vitae at enim. Duis nec risus a risus laoreet blandit nec sed ipsum. Suspendisse congue congue sapien, at convallis metus hendrerit quis. Mauris vel volutpat quam. Vivamus sodales auctor leo faucibus pharetra. Fusce non pulvinar metus. Nunc eu vehicula neque, eget ultrices libero. Proin id tellus aliquet purus laoreet pellentesque.",
+    "skills": [
+      {
+        "frontEndSkills": [
+          "JavaScript",
+          "React / ReactNative",
+          "Boostrap"
+        ]
+      },
+      {
+        "backEndSkills": [
+          "Node.js",
+          "Laravel",
+          "SQL"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Portfolio",
+        "description": "My personal portfolio showcasing my skills and projects.",
+        "link": "https://www.myportfolio.com"
+      },
+      {
+        "title": "Management Application",
+        "description": "A web application for efficient tracking and management of daily tasks.",
+        "link": "https://www.managementapp.com"
+      }
+    ],
+    "contact": {
+      "title": "Contact Me",
+      "description": "Feel free to contact me to discuss your projects or to learn more about my professional journey.",
+      "email": "contact@myportfolio.com"
+    }
+  }
+}
