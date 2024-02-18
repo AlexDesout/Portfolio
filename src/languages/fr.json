@@ -9,38 +9,165 @@
     "title": "Développeur Full-Stack",
     "subtitle": "Passionate about creating innovative web solutions.",
     "about": "Vivamus ac odio a massa auctor aliquet. Fusce tincidunt gravida libero in placerat. Pellentesque tristique ex ut ipsum pretium, at volutpat dolor vulputate. Integer gravida nec eros a convallis. Aenean vulputate fermentum vestibulum. Vestibulum efficitur lacus at ligula condimentum, vel feugiat sem semper. Vestibulum eget felis quam. Vestibulum blandit urna non lectus interdum, non lobortis nisl aliquam. Suspendisse et tortor mattis felis cursus gravida vitae at enim. Duis nec risus a risus laoreet blandit nec sed ipsum. Suspendisse congue congue sapien, at convallis metus hendrerit quis. Mauris vel volutpat quam. Vivamus sodales auctor leo faucibus pharetra. Fusce non pulvinar metus. Nunc eu vehicula neque, eget ultrices libero. Proin id tellus aliquet purus laoreet pellentesque.",
-    "skills": [
+    "social": [
       {
-        "frontEndSkills": [
-          "JavaScript",
-          "React / ReactNative",
-          "Boostrap"
+        "name": "GitHub",
+        "icone": "icone-git",
+        "link": "https://github.com/AlexDesout",
+        "target": "_blank"
+      },
+      {
+        "name": "LinkedIn",
+        "icone": "icone-linkedin",
+        "link": "https://www.linkedin.com/in/alexandre-desoutter-006849227/",
+        "target": "_blank"
+      },
+      {
+        "name": "alexdesout@outlook.fr",
+        "icone": "icone-mail",
+        "link": "mailto:alexdesout@outlook.fr",
+        "target": ""
+      }
+    ],
+    "categories": [
+      {
+        "title": "Design",
+        "skills": [
+          {
+            "name": "Figma",
+            "icone": "icone-figma"
+          },
+          {
+            "name": "Boostrap",
+            "icone": "icone-bootstrap"
+          }
         ]
       },
       {
-        "backEndSkills": [
-          "Node.js",
-          "Laravel",
-          "SQL"
+        "title": "Front-end",
+        "skills": [
+          {
+            "name": "JavaScript",
+            "icone": "icone-js"
+          },
+          {
+            "name": "React / ReactNative",
+            "icone": "icone-react"
+          },
+          {
+            "name": "Kotlin",
+            "icone": "icone-kotlin"
+          }
+        ]
+      },
+      {
+        "title": "Back-end",
+        "skills": [
+          {
+            "name": "Node.js",
+            "icone": "icone-nodejs"
+          },
+          {
+            "name": "Laravel",
+            "icone": "icone-laravel"
+          },
+          {
+            "name": "SQL",
+            "icone": "icone-sql"
+          }
+        ]
+      },
+      {
+        "title": "Autres",
+        "skills": [
+          {
+            "name": "Git",
+            "icone": "icone-git"
+          },
+          {
+            "name": "Scrum",
+            "icone": "icone-scrum"
+          }
         ]
       }
     ],
     "projects": [
       {
-        "title": "Portfolio",
-        "description": "My personal portfolio showcasing my skills and projects.",
-        "link": "https://www.myportfolio.com"
+        "emoji": "🍺",
+        "title": "Burtonian App",
+        "description": "Une application mobile de gestion de stock conçue pour la brasserie Burtonian.",
+        "link": "https://www.myportfolio.com",
+        "skills": [
+          {
+            "name": "ReactNative",
+            "icone": "icone-react"
+          },
+          {
+            "name": "Laravel",
+            "icone": "icone-laravel"
+          },
+          {
+            "name": "SQL",
+            "icone": "icone-sql"
+          },
+          {
+            "name": "Figma",
+            "icone": "icone-figma"
+          }
+        ]
       },
       {
-        "title": "Management Application",
-        "description": "A web application for efficient tracking and management of daily tasks.",
-        "link": "https://www.managementapp.com"
+        "emoji": "🥾",
+        "title": "Hiker",
+        "description": "Un jeu mobile permettant de rendre ses sessions de marche ludique.",
+        "link": "https://www.myportfolio.com",
+        "skills": [
+          {
+            "name": "Kotlin",
+            "icone": "icone-kotlin"
+          },
+          {
+            "name": "Node.js",
+            "icone": "icone-nodejs"
+          },
+          {
+            "name": "couchDb",
+            "icone": "icone-couchdb"
+          },
+          {
+            "name": "Figma",
+            "icone": "icone-figma"
+          }
+        ]
+      },
+      {
+        "emoji": "🎲",
+        "title": "On joue ?",
+        "description": "Une application web où il est possible de référencer ses différents jeux de société.",
+        "link": "https://www.managementapp.com",
+        "skills": [
+          {
+            "name": "PHP",
+            "icone": "icone-php"
+          },
+          {
+            "name": "SQL",
+            "icone": "icone-sql"
+          },
+          {
+            "name": "Boostrap",
+            "icone": "icone-bootstrap"
+          }
+        ]
       }
     ],
     "contact": {
-      "title": "Contact Me",
+      "title": "Contact",
       "description": "Feel free to contact me to discuss your projects or to learn more about my professional journey.",
       "email": "contact@myportfolio.com"
+    },
+    "copyright": {
+      "message": "Designer et développer par Alexandre Desoutter"
     }
   }
 }
