@@ -1,4 +1,5 @@
 import './App.css';
+import BackgroundParticles from './components/BackgroundParticles';
 import Presentation from './components/Presentation';
 import SkillsSection from './components/SkillsSection';
 import ProjectsSection from './components/ProjectsSection';
@@ -11,7 +12,7 @@ function App() {
   const currentLang = fr;
   return (
     <div className="App">
-      ReactDOM.render(
+      <BackgroundParticles />
       <Router>
         <Presentation lang={currentLang.fr} />
         <SkillsSection lang={currentLang.fr} />
@@ -19,7 +20,6 @@ function App() {
         <ContactSection lang={currentLang.fr} />
         <Copyright lang={currentLang.fr} />
       </Router>,
-      document.getElementById('root')
     </div >
   );
 }

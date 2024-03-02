@@ -19,6 +19,7 @@
 .dark-text {
   color: var(--text-dark);
   margin: 0;
+  z-index: 9999;
 }
 
 div {
